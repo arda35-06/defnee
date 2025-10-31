@@ -1,74 +1,11 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Defne beni Özledin mi?</title>
-  <style>
-    body {
-      background-color: #ffe6f2;
-      font-family: Arial, sans-serif;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
-    }
-
-    h1 {
-      color: #ff3399;
-      font-size: 2em;
-    }
-
-    .buttons {
-      margin-top: 20px;
-    }
-
-    button {
-      font-size: 1.2em;
-      padding: 10px 25px;
-      margin: 10px;
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-      transition: all 0.3s;
-    }
-
-    #evet {
-      background-color: #ff66b2;
-      color: white;
-    }
-
-    #hayir {
-      background-color: #cccccc;
-      color: black;
-      position: absolute;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <title>Site Yayında</title>
 </head>
 <body>
-  <h1>Defne beni özledin mi?</h1>
-  <div class="buttons">
-    <button id="evet">Evet</button>
-    <button id="hayir">Hayır</button>
-  </div>
-
-  <script>
-    const evet = document.getElementById("evet");
-    const hayir = document.getElementById("hayir");
-
-    hayir.addEventListener("mouseover", () => {
-      const x = Math.random() * (window.innerWidth - 100);
-      const y = Math.random() * (window.innerHeight - 100);
-      hayir.style.left = `${x}px`;
-      hayir.style.top = `${y}px`;
-    });
-
-    evet.addEventListener("click", () => {
-      evet.style.transform = "scale(1.4)";
-      evet.textContent = "Biliyorum ❤️ bende seni özledim :))";
-    });
-  </script>
+    <h1>Merhaba! GitHub Pages çalışıyor.</h1>
+    <p>Bu basit bir test sayfasıdır.</p>
 </body>
 </html>
